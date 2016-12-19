@@ -1,0 +1,3 @@
+[submodule "ConsoleApplication1/Library"]
+	path = ConsoleApplication1/Library
+	url = https://github.com/nmain/GitVersionExampleLibrary.git
