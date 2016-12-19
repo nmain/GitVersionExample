@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibrary1;
 
 namespace ConsoleApplication1
 {
@@ -18,6 +19,7 @@ namespace ConsoleApplication1
 
             Console.WriteLine("Hello, world!");
             Console.WriteLine($"I am version {version}");
+            Console.WriteLine($"My library is version {Class1.GetLibraryVersion()}");
         }
     }
 }
